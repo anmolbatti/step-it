@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "stepIt",
+    "slug": "stepIt",
+    "version": "1.3.0",
+    "orientation": "portrait",
+    "icon": "./assets/app-logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/images/sliderImg1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anmol.secure.stepIt",
+      "buildNumber": "22"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app-logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anmol.secure.stepIt"
+    },
+    "web": {
+      "favicon": "./assets/app-logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b94869a1-b1f9-472d-83ed-5575c9a9b486"
+      }
+    },
+    "owner": "anmol.secure"
+  }
+}
